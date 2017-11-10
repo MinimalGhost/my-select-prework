@@ -8,6 +8,7 @@ def my_select(collection)
         newArr.push(collection[i])
       elsif collection[i] == 4
         newArr.push(collection[i])
+      end
       i += 1
     end
 

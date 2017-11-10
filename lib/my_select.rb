@@ -4,11 +4,6 @@ def my_select(collection)
 
     while i < array.length
       yield array[i]
-      if array == languages
-        newArr.push(array[i].upcase)
-      else
-        newArr.push(array[i].split(' ').first)
-      end
       i += 1
     end
 

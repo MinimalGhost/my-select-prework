@@ -4,7 +4,7 @@ def my_select(collection)
 
     while i < collection.length
       yield collection[i]
-      if collection[i] == 2 || 4
+      if collection[i] == 2
         newArr.push(collection[i])
       end
       i += 1

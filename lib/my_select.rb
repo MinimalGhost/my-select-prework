@@ -4,6 +4,9 @@ def my_select(collection)
 
     while i < collection.length
       yield collection[i]
+      if collection[i] == 2 || 4
+
+      end
       i += 1
     end
 

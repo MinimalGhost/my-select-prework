@@ -10,7 +10,6 @@ def my_select(collection)
         newArr.push(collection[i])
       end
       i += 1
-      
     end
 
     newArr
